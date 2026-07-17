@@ -1,0 +1,12 @@
+/* Ajustes exclusivos del APK. */
+.native-mobile .room-row,
+.native-mobile #btn-offline,
+.native-mobile #btn-continue { display: none !important; }
+.native-mobile .mobile-new-run { display: block; margin: 8px auto 0; opacity: .78; }
+.native-mobile #backrooms-census { color: #9b967f; }
+.native-mobile #backrooms-census .census-signal { background: #676253; box-shadow: none; animation: none; }
+.native-mobile #touch-controls { z-index: 120; }
+@media (pointer: coarse) {
+  .native-mobile.game-active #touch-controls { display: flex !important; }
+  .native-mobile .title-box { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+}
